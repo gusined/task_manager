@@ -1,0 +1,21 @@
+task-manager/
+├── backend/          # C++ бэкенд (системные операции)
+│   ├── src/
+│   │   ├── main.cpp
+│   │   ├── process_monitor.cpp
+│   │   ├── hardware_info.cpp
+│   │   └── startup_manager.cpp
+│   ├── include/
+│   └── build/        # Скомпилированный .exe
+├── frontend/         # React/Electron фронтенд
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── ProcessMonitor.jsx
+│   │   │   ├── HardwareDashboard.jsx
+│   │   │   └── StartupManager.jsx
+│   │   ├── App.jsx
+│   │   └── index.js
+│   ├── package.json
+│   └── electron.js   # Точка входа Electron
+└── dist/             # Готовые билды приложения
